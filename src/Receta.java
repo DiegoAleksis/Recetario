@@ -34,5 +34,6 @@ public class Receta {
 
  public void setPasos(ArrayList<String> pasos) {
   this.pasos = pasos;
+
  }
 }
