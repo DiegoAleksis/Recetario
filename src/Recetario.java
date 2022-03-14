@@ -34,9 +34,12 @@ private String autor, titulo;
         this.titulo = titulo;
     }
 
+
     public void mostrarRecetario(){
         System.out.println(titulo);
         System.out.println(autor);
-
+        for (Receta receta: recetas) {
+            receta.mostrarReceta();
+        }
     }
 }
