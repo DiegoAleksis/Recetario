@@ -20,7 +20,7 @@ ingredientesdisponibles.add(avena);
 
  Receta hotca = new Receta("Hot cakes", 5,
          new ArrayList<>(Arrays.asList(harina,leche,huevo,mantequilla,avena)),
-         new ArrayList<>(Arrays.asList("Preparar todo con los ingredientes", "Comer dormido")));
+         new ArrayList<>(Arrays.asList("Preparar la masa con todos los ingredientes", "Vertir en un recipiente la mezcla", "")));
 
     }
 }
