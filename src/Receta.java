@@ -18,7 +18,8 @@ public class Receta {
   this.nombre = nombre;
  }
 
- public Receta(double tiempoPreparacion, ArrayList<Ingrediente> ingredientes, ArrayList<String> pasos) {
+ public Receta(String nombre, double tiempoPreparacion, ArrayList<Ingrediente> ingredientes, ArrayList<String> pasos) {
+  this.nombre = nombre;
   this.tiempoPreparacion = tiempoPreparacion;
   this.ingredientes = ingredientes;
   this.pasos = pasos;
