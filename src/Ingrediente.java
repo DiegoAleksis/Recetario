@@ -32,7 +32,9 @@ private double peso;
         this.nombre = nombre;
         this.esSalado = esSalado;
         this.peso = peso;
-        System.out.println("Ingrediente agregado.");
+
     }
+public Ingrediente(){}
+
 
 }
