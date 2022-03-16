@@ -68,7 +68,7 @@ ingredientesdisponibles.add(avena);
                     System.out.println(i+1 + ". " + ingredientesdisponibles.get(i).getNombre());
                 }
                 ArrayList<Ingrediente>ingredientesReceta=new ArrayList<>();
-                System.out.println("Ingrese el numero del ingrediente correspondiente y de enter,"
+                System.out.println("Ingrese el numero del ingrediente correspondiente y de enter,"+
                         "Si ya no quiere agregar mas escriba 0");
                 do {
                     if(respuesta!=0){
