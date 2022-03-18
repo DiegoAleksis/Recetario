@@ -36,5 +36,8 @@ private double peso;
     }
 public Ingrediente(){}
 
-
+    @Override
+    public String toString() {
+        return nombre;
+    }
 }
